@@ -54,3 +54,18 @@ body {
   transform-origin: center center;
   background: url("../images/star.svg") no-repeat center center / contain transparent;
 }
+
+@keyframes twinkle {
+
+  0% {
+
+    width: 40px;
+    height: 40px;
+  }
+
+  100% {
+
+    width: 50px;
+    height: 50%;
+  }
+}
