@@ -50,6 +50,7 @@ body {
   position: absolute;
   top: 0;
   width: 30px;
-
+  animation: twinkle 2s infinite alternate;
+  transform-origin: center center;
   background: url("../images/star.svg") no-repeat center center / contain transparent;
 }
